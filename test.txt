@@ -3,3 +3,22 @@ git config --global user.email "dcheng2001@gmail.com"
 git init HumanaProj
 cd HumanaProj
 get status
+
+/* track all the files in dir of HumanaProj
+
+git add .
+
+/* track a single file */
+
+git add test.txt
+
+/* remove traced file */
+
+git rm test.txt
+
+/* commit */
+git commit -m "initial commit"
+
+/* check repository */
+
+git log
