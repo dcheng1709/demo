@@ -1,0 +1,5 @@
+git config --global user.name "kit"
+git config --global user.email "dcheng2001@gmail.com"
+git init HumanaProj
+cd HumanaProj
+get status
