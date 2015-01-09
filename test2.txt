@@ -18,7 +18,18 @@ git rm test.txt
 
 /* commit */
 git commit -m "initial commit"
-
+git commit -a -m "message" -- commit all files
 /* check repository */
 
 git log
+
+/* difference */
+
+git diff
+git diff --cached
+
+/* get out of log */
+
+shit zz
+
+git log --oneline
